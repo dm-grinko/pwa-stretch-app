@@ -1,0 +1,46 @@
+.app {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.app .header {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  background-color: #75aa92;
+  min-height: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+.app .item {
+  position: relative;
+}
+.app .item span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: #75aa92;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 50%;
+}
+.app .item .img {
+  width: 100%;
+  height: auto;
+}
+.app a {
+  display: inline-block;
+  color: #75aa92;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */

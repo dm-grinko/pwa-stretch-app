@@ -1,0 +1,54 @@
+$light: #fff;
+$dark: #75aa92;
+$header-height: 60px;
+.app {
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    .header {
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        background-color: $dark;
+        min-height: $header-height;
+        line-height: $header-height;
+        color: $light;
+    }
+    .item{
+        position: relative;
+        span{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #fff;
+            background-color: $dark;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 50%;
+        }
+        .img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+    a {
+        display: inline-block;
+        color: $dark;
+        font-weight: bold;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
